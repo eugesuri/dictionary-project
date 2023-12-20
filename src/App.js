@@ -1,5 +1,6 @@
 import logo from "./dictionary.jpg";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />{" "}
         </header>
+        <main>
+          <Dictionary />
+        </main>
         <footer className="text-center">
           {" "}
           Coded by Eugenia Brunetti Ehnimb and is open-sourced on {""}
